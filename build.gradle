@@ -30,7 +30,7 @@ allprojects {
             imports {
                 mavenBom("org.springframework.boot:spring-boot-dependencies:2.5.2")
             }
-            dependency("com.google.guava:guava:28.2-jre")
+            dependency("com.google.guava:guava:${Versions.guava}")
         }
     }
 }
